@@ -53,13 +53,17 @@ body{
     
 }
 
-#operation{
+.actions{
     background-color: black;
     color: white;
     border-color: white;
 }
 
-#equals{
-    background-color: red;
 
+.two-horizontal{
+    grid-column: span 2;
+}
+
+.two-verticle{
+    grid-row: span 2;
 }
