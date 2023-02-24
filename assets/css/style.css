@@ -37,7 +37,6 @@ body{
 .calculator{
     display: grid;
     grid-template-columns: repeat(4,100px);
-    grid-template-rows: (5,100px);
     align-content: center;
     justify-content: center;
     min-height: 50rem;
@@ -48,8 +47,7 @@ body{
 
 .calculator > button{
     cursor: pointer;
-    background-color: white;
-    border-color: black;
+ 
     
 }
 
