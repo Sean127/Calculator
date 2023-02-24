@@ -11,33 +11,31 @@
 <body>
     <div class="calculator">
         <div class="screen">
-            <div class="previous-num">456</div>
-            <div class="current-num">123</div>
+            <div data-previous-num>   </div>
+            <div data-current-num>    </div>
         </div class="calculator-grid">
-            <button id="operation">√</button>
-            <button id="operation">÷</button>
-            <button id="operation">X</button>
-            <button id="operation">CLR</button>
-            <button id="number">7</button>
-            <button id="number">8</button>
-            <button id="number">9</button>
-            <button id="operation">DEL</button>
-            <button id="number">4</button>
-            <button id="number">5</button>
-            <button id="number">6</button>
-            <button id="operation">-</button>
-            <button id="number">1</button>
-            <button id="number">2</button>
-            <button id="number">3</button>
-            <button id="operation">+</button>
-            <button id="operation">%</button>
-            <button id="number">0</button>
-            <button id="operation">.</button>
-            <button id="equals">=</button>
+            <button data-actions class="actions">÷</button>
+            <button data-actions class="actions">X</button>            
+            <button data-delete class="actions">DEL</button>
+            <button data-clear class="actions">CLR</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-actions class="actions">+</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-actions class="actions">-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-number class="actions">.</button>
+            <button data-number class="two-horizontal">0</button>
+            <button data-equals class="two-horizontal">=</button>
+            
     </div>
     </div>
 
     <script src="assets/js/script.js"></script>
-    
 </body>
 </html>
